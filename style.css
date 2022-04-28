@@ -198,14 +198,14 @@
   position: relative;
   margin-top: 50px;
   width: 100%;
-  height: 700px;
+  height: 1300px;
   background-color: gray;
 }
 
 .tablero {
   position: absolute;
   margin-top: 40px;
-  margin-left: 100px;
+  margin-left: 200px;
   width: 200px;
   height: 200px;
 }
@@ -213,7 +213,7 @@
 .texto-tablero {
   position: absolute;
   margin-top: 270px;
-  margin-left: 50px;
+  margin-left: 150px;
   color: white;
   font-size: 18px;
 }
@@ -221,7 +221,7 @@
 .motor {
   position: absolute;
   margin-top: 40px;
-  margin-left: 500px;
+  margin-left: 600px;
   width: 200px;
   height: 200px;
 }
@@ -229,7 +229,7 @@
 .texto-motor {
   position: absolute;
   margin-top: 270px;
-  margin-left: 510px;
+  margin-left: 610px;
   color: white;
   font-size: 18px;
 }
@@ -237,7 +237,7 @@
 .ultrasonico {
   position: absolute;
   margin-top: 40px;
-  margin-left: 900px;
+  margin-left: 1000px;
   width: 200px;
   height: 200px;
 }
@@ -245,7 +245,151 @@
 .texto-ultrasonico {
   position: absolute;
   margin-top: 270px;
-  margin-left: 880px;
+  margin-left: 980px;
+  color: white;
+  font-size: 18px;
+}
+
+.modulo-seguimiento {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 1450px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-modulo-s {
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 1390px;
+  color: white;
+  font-size: 18px;
+}
+
+.modulo-deteccion {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-deteccion {
+  position: absolute;
+  margin-top: 630px;
+  margin-left: 150px;
+  color: white;
+  font-size: 18px;
+}
+
+.motor-r {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 600px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-motor-r {
+  position: absolute;
+  margin-top: 630px;
+  margin-left: 640px;
+  color: white;
+  font-size: 18px;
+}
+
+.soporte-ultrasónico {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 1000px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-soporte {
+  position: absolute;
+  margin-top: 630px;
+  margin-left: 1010px;
+  color: white;
+  font-size: 18px;
+}
+
+.servo {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 1450px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-servo {
+  position: absolute;
+  margin-top: 630px;
+  margin-left: 1530px;
+  color: white;
+  font-size: 18px;
+}
+
+.ruedas {
+  position: absolute;
+  margin-top: 760px;
+  margin-left: 200px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-ruedas{
+  position: absolute;
+  margin-top: 990px;
+  margin-left: 220px;
+  color: white;
+  font-size: 18px;
+}
+
+.discos {
+  position: absolute;
+  margin-top: 760px;
+  margin-left: 600px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-discos {
+  position: absolute;
+  margin-top: 990px;
+  margin-left: 570px;
+  color: white;
+  font-size: 18px;
+}
+
+.soporte-fijacion {
+  position: absolute;
+  margin-top: 760px;
+  margin-left: 1000px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-soporte-f{
+  position: absolute;
+  margin-top: 990px;
+  margin-left: 940px;
+  color: white;
+  font-size: 18px;
+}
+
+.bateria {
+  position: absolute;
+  margin-top: 760px;
+  margin-left: 1450px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-bateria {
+  position: absolute;
+  margin-top: 990px;
+  margin-left: 1450px;
   color: white;
   font-size: 18px;
 }
