@@ -22,3 +22,11 @@ fetch("./footer.html")
     .then(data => {
       document.querySelector("content").innerHTML = data;
     });
+
+  fetch("./procedimiento.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("procedimiento").innerHTML = data;
+    });
