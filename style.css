@@ -409,3 +409,51 @@
   color: white;
   font-size: 18px;
 }
+
+.tuerca {
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 600px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-tuerca {
+  position: absolute;
+  margin-top: 1330px;
+  margin-left: 625px;
+  color: white;
+  font-size: 18px;
+}
+
+.tornillo {
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 1000px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-tornillo {
+  position: absolute;
+  margin-top: 1330px;
+  margin-left: 940px;
+  color: white;
+  font-size: 18px;
+}
+
+.placa {
+  position: absolute;
+  margin-top: 1100px;
+  margin-left: 1450px;
+  width: 200px;
+  height: 200px;
+}
+
+.texto-placa {
+  position: absolute;
+  margin-top: 1330px;
+  margin-left: 1400px;
+  color: white;
+  font-size: 18px;
+}
