@@ -114,26 +114,89 @@ menu {
 .footer {
   position: relative;
   width: 100%;
-  height: 80px;
-  background-color: gray;
+  height: 200px;
+  background-color: black;
 }
 
+.contact {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -90px;
+  color: yellow;
+  font-size: 20px;
+}
 
+.santa-coloma {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -55px;
+  color: white;
+  font-size: 15px;
+}
 
+.direccion {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -30px;
+  color: white;
+  font-size: 15px;
+}
 
+.tn-1 {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -5px;
+  color: white;
+  font-size: 15px;
+}
 
+.tn-2 {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+}
 
+.fax {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 45px;
+  color: white;
+  font-size: 15px;
+}
 
+.correo-1 {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 70px;
+  color: white;
+  font-size: 15px;
+}
 
+.correo-2 {
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 95px;
+  color: white;
+  font-size: 15px;
+}
 
+.mapa {
+  height: 300px;
+  width: 500px;
+  margin-left: 15%;
+  margin-top: -140px;
+}
 
+.telefono {
+  position: absolute;
+  margin-left: 440px;
+  margin-top: -95px;
+  width: 30px;
+  height: 30px;
 
-
-
-
-
-
-
+}
 
 
 
@@ -530,4 +593,22 @@ menu {
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   text-align: center;
+}
+
+.texto-header-2 {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 70px;
+  font-size: 18px;
+}
+
+.introduccion {
+  position: relative;
+  width: 100%;
+  background-color: white;
+}
+
+.coche {
+  width: 100%;
+
 }
