@@ -1,76 +1,172 @@
 
-.header {
+.partes-t {
   position: relative;
-  background-color: white;
   width: 100%;
   height: 100px;
-}
-
-.texto-header-1 {
-  position: absolute;
-  margin-left: 30px;
-  margin-top: 20px;
-  background-color: white;
-  width: 300px;
-  height: 30px;
-  padding-top: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  text-align: center;
-}
-
-.texto-header-2 {
-  position: absolute;
   margin-left: 40%;
-  margin-top: 20px;
-  background-color: white;
-  width: 300px;
-  height: 30px;
-  padding-top: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  text-align: center;
 }
 
-.principal {
-  position: relative;
-  background-color: gray;
-  width: 100%;
-  height: 400px;
-}
-
-.texto-principal-1 {
-  position: absolute;
-  margin-left: 37%;
-  margin-top: 130px;
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.texto-principal-2 {
-  position: absolute;
-  margin-left: 40.5%;
-  margin-top: 250px;
-  font-size: 18px;
+.texto-partes {
+  font-size: 19px;
+  margin-top: 50px;
 }
 
 .partes {
   position: relative;
   width: 100%;
-  height: 300px;
   background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.texto-partes {
-  position: absolute;
-  margin-left: 80px;
-  margin-top: 60px;
-  font-size: 19px;
+.cajita {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-bottom: 70px;
+}
 
+.tablero {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-tablero {
+  font-size: 15px;
+}
+
+.motor {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-motor {
+  font-size: 15px;
+}
+
+.ultrasonico {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-ultrasonico {
+  font-size: 15px;
+}
+
+.modulo-seguimiento {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-modulo-s {
+  font-size: 15px;
+}
+
+.modulo-deteccion {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-deteccion {
+  font-size: 15px;
+}
+
+.motor-r {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-motor-r {
+  font-size: 15px;
+}
+
+.soporte-ultrasónico {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-soporte {
+  font-size: 15px;
+}
+
+.servo {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-servo {
+  font-size: 15px;
+}
+
+.ruedas {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-ruedas{
+  font-size: 15px;
+}
+
+.discos {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-discos {
+  font-size: 15px;
+}
+
+.soporte-fijacion {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-soporte-f {
+  font-size: 15px;
+}
+
+.bateria {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-bateria {
+  font-size: 15px;
+}
+
+.postes {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-poste {
+  font-size: 15px;
+}
+
+.tuerca {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-tuerca {
+  font-size: 15px;
+}
+
+.tornillo {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-tornillo {
+  font-size: 15px;
+}
+
+.placa {
+  width: 200px;
+  height: 200px;
+}
+
+.texto-placa {
+  font-size: 15px;
 }
 
 
@@ -85,12 +181,32 @@
 
 
 
-.abajo {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  background-color: black;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -98,13 +214,13 @@
 .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: 'Indie Flower', cursive;
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -119,7 +235,7 @@
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -164,352 +280,237 @@
   display: block;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu {
+  margin: 0;
+  padding: 0;
+}
+
+
 .footer {
   position: relative;
   width: 100%;
-  height: 200px;
   background-color: black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  height: 300px;
+  margin-top: 80px;
 }
 
-<<<<<<< HEAD
 .contact {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: -90px;
   color: yellow;
   font-size: 20px;
 }
 
 .santa-coloma {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: -55px;
+
   color: white;
   font-size: 15px;
 }
 
 .direccion {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: -30px;
+
   color: white;
   font-size: 15px;
 }
 
 .tn-1 {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: -5px;
   color: white;
   font-size: 15px;
 }
 
 .tn-2 {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: 20px;
   color: white;
   font-size: 15px;
 }
 
 .fax {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: 45px;
   color: white;
   font-size: 15px;
 }
 
 .correo-1 {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: 70px;
   color: white;
   font-size: 15px;
 }
 
 .correo-2 {
-  position: absolute;
-  margin-left: 60%;
-  margin-top: 95px;
   color: white;
   font-size: 15px;
 }
 
 .mapa {
-  height: 300px;
-  width: 500px;
-  margin-left: 15%;
-  margin-top: -140px;
-}
-
-.telefono {
-  position: absolute;
-  margin-left: 440px;
-  margin-top: -95px;
-  width: 30px;
-  height: 30px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.partes {
-=======
-.introduccion {
->>>>>>> 84b479cc7bc57a06d1bdfe6153d4d74797fcf46c
-  position: relative;
-  width: 100%;
   height: 200px;
-  background-color: white;
-  margin-left: 41%;
-  margin-top: 40px;
-  font-size: 20px;
-}
-
-.foto-tablero {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-.partes-t {
-  position: relative;
-  width: 100%;
-  height: 100px;
-  margin-left: 40%;
-}
-
-.partes {
-  position: relative;
+  width: 300px;
   margin-top: 50px;
-  width: 100%;
-  height: 1600px;
-  background-color: gray;
+  margin-right: 300px;
 }
 
-.tablero {
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 200px;
-  width: 200px;
-  height: 200px;
+.cajita2 {
+  margin-left: 250px;
+  margin-top: 50px;
+  line-height : 25px;
 }
 
-.texto-tablero {
-  position: absolute;
-  margin-top: 270px;
-  margin-left: 150px;
-  color: white;
-  font-size: 18px;
-}
 
-.motor {
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 600px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-motor {
-  position: absolute;
-  margin-top: 270px;
-  margin-left: 610px;
-  color: white;
-  font-size: 18px;
-}
 
-.ultrasonico {
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 1000px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-ultrasonico {
-  position: absolute;
-  margin-top: 270px;
-  margin-left: 980px;
-  color: white;
-  font-size: 18px;
-}
 
-.modulo-seguimiento {
-  position: absolute;
-  margin-top: 40px;
-  margin-left: 1450px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-modulo-s {
-  position: absolute;
-  margin-top: 270px;
-  margin-left: 1390px;
-  color: white;
-  font-size: 18px;
-}
 
-.modulo-deteccion {
-  position: absolute;
-  margin-top: 400px;
-  margin-left: 200px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-deteccion {
-  position: absolute;
-  margin-top: 630px;
-  margin-left: 150px;
-  color: white;
-  font-size: 18px;
-}
 
-.motor-r {
-  position: absolute;
-  margin-top: 400px;
-  margin-left: 600px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-motor-r {
-  position: absolute;
-  margin-top: 630px;
-  margin-left: 640px;
-  color: white;
-  font-size: 18px;
-}
 
-.soporte-ultrasónico {
-  position: absolute;
-  margin-top: 400px;
-  margin-left: 1000px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-soporte {
-  position: absolute;
-  margin-top: 630px;
-  margin-left: 1010px;
-  color: white;
-  font-size: 18px;
-}
 
-.servo {
-  position: absolute;
-  margin-top: 400px;
-  margin-left: 1450px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-servo {
-  position: absolute;
-  margin-top: 630px;
-  margin-left: 1530px;
-  color: white;
-  font-size: 18px;
-}
 
-.ruedas {
-  position: absolute;
-  margin-top: 760px;
-  margin-left: 200px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-ruedas{
-  position: absolute;
-  margin-top: 990px;
-  margin-left: 220px;
-  color: white;
-  font-size: 18px;
-}
 
-.discos {
-  position: absolute;
-  margin-top: 760px;
-  margin-left: 600px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-discos {
-  position: absolute;
-  margin-top: 990px;
-  margin-left: 570px;
-  color: white;
-  font-size: 18px;
-}
 
-.soporte-fijacion {
-  position: absolute;
-  margin-top: 760px;
-  margin-left: 1000px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-soporte-f{
-  position: absolute;
-  margin-top: 990px;
-  margin-left: 940px;
-  color: white;
-  font-size: 18px;
-}
 
-.bateria {
-  position: absolute;
-  margin-top: 760px;
-  margin-left: 1450px;
-  width: 200px;sd
-  height: 200px;
-}
 
-.texto-bateria {
-  position: absolute;
-  margin-top: 990px;
-  margin-left: 1450px;
-  color: white;
-  font-size: 18px;
-}
 
-.postes {
-  position: absolute;
-  margin-top: 1100px;
-  margin-left: 200px;
-  width: 200px;
-  height: 200px;
-}
 
-.texto-poste {
-  position: absolute;
-  margin-top: 1330px;
-  margin-left: 170px;
-  color: white;
-  font-size: 18px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -636,20 +637,76 @@ position: relative;
   margin-left: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header {
+  position: relative;
+  background-color: orange;
+  width: 100%;
+  height: 190px;
+  font-family: 'Tapestry', cursive;
+}
+
+.texto-header-1 {
+  position: absolute;
+  margin-left: 9%;
+  margin-top: 70px;
+  font-size: 20px;
+}
+
 .texto-header-2 {
   position: absolute;
   margin-left: 80%;
   margin-top: 70px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
-.introduccion {
-  position: relative;
-  width: 100%;
-  background-color: white;
+.puig {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  margin-left: 34%;
+  margin-top: 35px;
 }
 
 .coche {
   width: 100%;
-
+  margin-top: 30px;
 }
