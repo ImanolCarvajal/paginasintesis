@@ -30,3 +30,13 @@ fetch("./footer.html")
     .then(data => {
       document.querySelector("procedimiento").innerHTML = data;
     });
+
+
+
+  fetch("./fotos.html")
+    .then(response => {
+      return response.text()
+    })
+    .then(data => {
+      document.querySelector("fotos").innerHTML = data;
+    });
