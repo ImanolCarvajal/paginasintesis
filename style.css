@@ -1,5 +1,9 @@
 
 
+body {
+  margin: 0px;
+
+}
 .texto-partes {
   font-size: 19px;
   margin-top: 50px;
@@ -409,134 +413,17 @@ menu {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.partesprocedimiento {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 2em;
+  padding: 2em;
+}
+
+.partesprocedimiento img {
+  max-width: 100%;
+}
 
 
 .texto1 {
@@ -545,114 +432,16 @@ menu {
   font-size: 30px;
 }
 
-
-
-.foto1 {
-  position: absolute;
-  width: 370px;
-  height: 320px;
-  margin-left: 700px;
-  margin-top: 70px;
-
+.texto-procedimiento {
+  padding: 2em;
 }
-
-.foto2 {
-  position: absolute;
-  width: 370px;
-  height: 320px;
-  margin-left: 100px;
-  margin-top: 70px;
-}
-
-
-
-
-.foto3 {
-  position: absolute;
-  width: 390px;
-  height: 320px;
-  margin-left: 1300px;
-  margin-top: 70px;
-
-}
-
-
-
-
-.primeraparte {
-  position: relative;
-  font-size: 17px;
-  margin-top: 420px;
-  margin-left: 30px;
-}
-
 
 .procedimiento {
   position: relative;
-  margin-left: 330px;
-  margin-top: 30px;
+  text-align: center;
   font-size: 70px;
 
 }
-
-
-
-.separar {
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  background-color: gray;
-  margin-top: 30px;
-}
-
-
-.texto2parte {
-position: relative;
-  margin-top: 700px;
-}
-
-
-.foto12parte {
-  position: absolute;
-  width: 390px;
-  height: 320px;
-  margin-left: 200px;
-  margin-top: 150px;
-
-
-}
-
-.foto22parte {
-  position: absolute;
-  width: 390px;
-  height: 320px;
-  margin-left: 1200px;
-  margin-top: 150px;
-
-}
-
-
-.foto32parte {
-  position: absolute;
-  width: 390px;
-  height: 320px;
-  margin-left: 700px;
-  margin-top: 150px;
-
-}
-
-.texto2parte {
-  position: relative;
-  font-size: 17px;
-  margin-top: 510px;
-  margin-left: 30px;
-}
-
-
-
-
-
-
 
 
 
