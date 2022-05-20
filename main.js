@@ -40,3 +40,12 @@ fetch("./footer.html")
     .then(data => {
       document.querySelector("fotos").innerHTML = data;
     });
+
+
+    fetch("./manual.html")
+      .then(response => {
+        return response.text()
+      })
+      .then(data => {
+        document.querySelector("manual").innerHTML = data;
+      });

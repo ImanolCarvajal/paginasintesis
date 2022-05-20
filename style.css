@@ -879,3 +879,82 @@ position: relative;
   height: 400px;
   width: 400px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.manual-1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.fondos {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
+}
+
+.fondo1 {
+  background-color: red;
+  height: 800px;
+  width: 100%;
+}
+
+.fondo2 {
+  background-color: green;
+  height: 100%;
+
+}
+
+.fondo3 {
+  background-color: yellow;
+  height: 100%;
+}
